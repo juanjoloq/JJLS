@@ -1,0 +1,27 @@
+body {
+    color: white;
+    background: -webkit-linear-gradient(90deg, #a62dd2,#7c87cf,#a51b90);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #a62dd2,#7c87cf,#a51b90);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+}
+.form-container {
+    background-color: rgba(0, 0, 0, 0.678);
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    max-width: 500px;
+    margin: 150px auto;
+}
+
+.form-control {
+    background-color: rgba(0, 0, 0, 0.678); /* Color de fondo personalizado */
+    color: white; /* Color del texto */
+}
+
+.form-control:focus {
+    background-color: #444444; /* Color de fondo al estar enfocado */
+    color: white;
+}   
+
+.form-control::placeholder {
+    color: #a0a0a0; /* Color del texto del placeholder */
+}
